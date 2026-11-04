@@ -1,0 +1,53 @@
+body {
+  background-color: chocolate;
+  font-family: Jakarta-Sans, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.bg {
+  background-color: bisque;
+  width: 350px;
+  padding: 30px;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  text-align: center;
+}
+.input-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+}
+.pass {
+  width: 250px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.button {
+  background-color: burlywood;
+  color: white;
+  width: 100px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid orange;
+  font-size: 16px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+#hasil:empty {
+  display: none;
+}
+
+#hasil {
+  white-space: pre-line;
+  font-size: small;
+}
